@@ -1,3 +1,3 @@
-# Estudos
+# Estudos em Algoritmos e Abstração de Dados
 
-Contém meus cadernos de estudo de informática.
+Contém meus cadernos.
