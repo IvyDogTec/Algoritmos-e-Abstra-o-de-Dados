@@ -1,3 +1,50 @@
+//ESTUDOS DE ALGORITMOS E ABSTRAÇÃO DE DADOS
+
+Estruturas Homogêneas: Vetores e Matrizes
+
+Vetores e matrizes são variáveis compostas, homogêneas e unidimensionais, formadas por um conjunto de variáveis de mesmo tipo, com o mesmo identificador, alocadas sequencialmente na memória.
+Como possuem o mesmo nome, o que as diferencia de seus respectivos elementos é um índice, que faz referência à sua localização na estrutura.
+
+    int[] Num;
+
+Essa instrução diz que Num é um vetor de inteiros, ou seja, uma estrutura em que todos os seus elementos serão do tipo inteiro.
+Da mesma forma:
+
+    double[] Peso;
+    string[] Nomes;
+
+São vetores de tipos dougle e string, respectivamente, funcionando do mesmo modo para todos os tipos definidos na linguagem (no nosso caso C#).
+Para que possamos utilizar esta estrutura, devemos definir seu tamanho, ou seja, estabelecer quantos elementos ele terá.
+Assim:
+
+    Num = new int [10];
+
+Também podemos especificar o tamanho do vetor na própria declaração, então:
+
+    int[] Num = new int [10];
+
+Deste modo, o vetor ‘Num’ foi criado e possui 10 elementos. Está alocado na memória e pronto para uso. A variável chamada ‘Num’ e precisamos definir um índice para acessar cada um de seus elementos. O primeiro elemento do índice em C# é o 0. 
+O índice é usado assim:
+
+    Num[6] = 80;
+
+O que indica que o índice 6 terá o valor inteiro 80.
+Vejamos como utilizar um índice dentro de uma estrutura de repetição para orientar a leitura dos elementos de um vetor utilizando a linguagem C#:
+
+int i;
+int[] Valor = new int[6];
+
+// Entrada de dados
+
+Console.WriteLine("Digite os elementos do vetor: \n");
+for (i = 0; i < 6; i++)
+	{
+		Console.Write($"Digite o elemento {if + 1} do vetores: ");
+        Valor[i] = int.Parse(Console.ReadLine());
+    }
+
+
+
 # ESTUDOS DE ALGORITMOS E ABSTRAÇÃO DE DADOS
 
 ## Estruturas Homogêneas: Vetores e Matrizes
